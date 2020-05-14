@@ -1,0 +1,16 @@
+{
+  "name": "nodescaler",
+  "version": "1.0.0",
+  "description": "Scales AKS User Nodepools",
+  "main": "scale.js",
+  "scripts": {
+    "start": "node scale.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wolfgang Ladermann",
+  "license": "ISC",
+  "dependencies": {
+    "ms-rest-azure": "3.0.0",
+    "ms-rest": "2.5.4"
+  }
+}
